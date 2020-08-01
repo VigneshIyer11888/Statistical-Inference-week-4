@@ -450,6 +450,8 @@ pval</code></pre>
 <p>8.Researchers would like to conduct a study of n healthy adults to detect a four year mean brain volume loss of <span class="math inline">\(.01~mm^3\)</span>. Assume that the standard deviation of four year volume loss in this population is <span class="math inline">\(.04~mm^3\)</span>.About what would be the value of n n needed for 90% power of type one error rate of 5% one sided test versus a null hypothesis of no volume loss?</p>
 <pre class="r"><code>power.t.test(power = 0.9, delta=0.01, sd=0.04, type=&quot;one.sample&quot;, alt=&quot;one.sided&quot;)$n</code></pre>
 <pre><code>## [1] 138.3856</code></pre>
+<p>9.As you increase the type one error rate, <span class="math inline">\(α\)</span>, what happens to power?</p>
+<p><em>You will get a larger power</em></p>
 
 
 

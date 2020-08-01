@@ -100,3 +100,7 @@ power.t.test(n=100, delta=0.01, sd=0.04, type="one.sample", alt="one.sided")$pow
 ```{r}
 power.t.test(power = 0.9, delta=0.01, sd=0.04, type="one.sample", alt="one.sided")$n
 ```
+
+9.As you increase the type one error rate, $α$, what happens to power?
+
+*You will get a larger power*
